@@ -1,5 +1,5 @@
 '''
-Created by Stephen Mendoza Jr. @stevemendozajr
+Created by Steve Mendoza Jr. @stevemendozajr
 Last updated 08-09-19
 '''
 
