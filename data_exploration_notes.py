@@ -12,7 +12,10 @@ Last updated 12/11/2019
 df.info()
 
 #check datatypes of columns
-df.dtypes 
+df.dtypes
+
+# get counts of different dtypes
+df.get_dtype_counts()
 
 #view all the datatypes within a single column
 df['column_name'].apply(type)
@@ -62,3 +65,9 @@ df.sort_values(by='column_name', inplace=True)
 
 #filter a dataframe on a column using loc/iloc
 filtered_df = df.loc[df.column_name=='value']
+
+# filter dataframe using loc
+selected_columns = ['column1', 'column2']
+selected_rows = df['column1'] == 'value'
+df.loc[selected_rows, selected_columns]
+
